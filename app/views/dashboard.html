@@ -1,0 +1,8 @@
+<h1>{{params.gameId}} Dashboard - {{params.type}}</h1>
+
+
+<div class="row">
+    <div class="col-sm-6 col-xs-12" ng-repeat="chart in charts">
+        <div id="chart{{$index}}" class="chart"></div>
+    </div>
+</div>
